@@ -1,8 +1,8 @@
 :root {
     --background: #b3b5c5;
     --border: rgb(16, 11, 29);
-    --textColorDark: black;
     --button: #464b92;
+    --textColorLight: white;
     --buttonHover: rgb(102, 112, 204);
     --shadow: rgb(56, 20, 20);
     --titlebackground: #374270;
@@ -10,11 +10,11 @@
 }
 
 .title {
-    margin-left: 43%;
+    margin-left: 40%;
 }
 
 header {
-    background-color: var(--titlebackground)
+    background-color: var(--titlebackground);
     width: 100%;
 }
 
@@ -38,6 +38,8 @@ nav {
 }
 
 #btn {
+    color: var(--textColorLight);
+    padding: 6px 5px;
     background-color: var(--button);
     font-size: 100px;
 }
@@ -53,13 +55,13 @@ nav {
     background-color: var(--background);
     word-spacing: 20px;
     font-size: 30px;
-    width: 70%;
+    width: 60%;
     margin-left: 10%;
 }
 
 input {
     width: 50%;
-    padding: 8px 8px;
-    margin: 6px 0;
+    padding: 10px 20px;
+    margin: 5px 0;
     box-sizing: border-box;
 }
