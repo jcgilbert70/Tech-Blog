@@ -86,7 +86,7 @@
   ## Links
 
   Application:
-  https://tech-blog-jcg70.herokuapp.com/
+  https://jcg-tech-blog.herokuapp.com/
 
   Github Repo:
   https://github.com/jcgilbert70/Tech-Blog.git
