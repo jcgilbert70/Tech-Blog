@@ -7,7 +7,7 @@
  
   ## Description
 
-
+  This app has been created to allow tech savvy individuals to create and comment on blogs. The application requires a secure password login with the users name and email. Features are active after sign up, including deleting blogs created by the user.
 
   ## User Story
   
@@ -60,25 +60,15 @@
   - [Contributing](#contributing)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Tests](#tests)
   - [Questions](#questions)
   
- 
   ## Installation
   
-
-  Information on installation: 
-  
-
-  
-  
+  Requires an npm install to be run to install all of the dependencies in the package.json.
  
   ## Usage
   
- 
-  Usage Information: 
- 
- 
+  Blog for tech users to create new blogs, comment on blogs, and delete blogs that they created
  
   ## Contributing
   
@@ -91,10 +81,16 @@
  
   ## Screenshots
 
-  ## Tests
+  (***insert images when running)
   
   ## Links
- 
+
+  Application:
+  https://tech-blog-jcg70.herokuapp.com/
+
+  Github Repo:
+  https://github.com/jcgilbert70/Tech-Blog.git
+
   ## Questions
   Any questions about this project please contact the creator jcgilbert70 at:
   jcgilbert70@gmail.com
