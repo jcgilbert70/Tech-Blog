@@ -32,7 +32,6 @@ router.get('/signup', async (req, res) =>{
   })
 });
 
-
 router.get('/profile/:id', async (req, res) => {
   try{ 
       const postData = await Post.findByPk(req.params.id);
