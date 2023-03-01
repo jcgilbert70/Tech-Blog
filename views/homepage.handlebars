@@ -1,0 +1,22 @@
+{{#each blogs as |blog| }}
+<div class="row mb-4 blog" id="inputArea">
+  <div class="col-md-5">
+    <h2>
+      <a href="/blog/{{blog.id}}">{{blog.name}}</a>
+    </h2>
+    <p>Created by {{blog.user.name}} on {{format_date blog.date_created}}</p>
+  </div>
+  <div class="col-md-7 cmt">
+    <p>
+      {{blog.description}}
+    </p>
+    {{#if blog.logged_in}}
+    <button class="comment" >Comment</button>
+    {{/if}}
+   </div>
+</div>
+  {{!-- <button class="no-button" data-id="comment" id='commentBtn'>Comment</button> --}}
+{{/each}} 
+
+
+<script src="js/comment.js"></script>
